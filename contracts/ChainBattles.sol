@@ -1,5 +1,39 @@
 // SPDX-License-Identifier: MIT
+
+//     Pragma statements
+
+//     Import statements
+
+//     Events
+
+//     Errors
+
+//     Interfaces
+
+//     Libraries
+
+//     Contracts
+
+// Inside each contract, library or interface, use the following order:
+
+//     Type declarations
+
+//     State variables
+
+//     Events
+
+//     Errors
+
+//     Modifiers
+
+//     Functions
+
 pragma solidity 0.8.24;
+
+/**
+ * @title Chain Battles
+ * @author Reduan Hossain
+ */
 
 import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import {ERC721URIStorage} from "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
